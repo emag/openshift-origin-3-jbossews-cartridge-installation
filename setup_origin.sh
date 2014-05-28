@@ -24,7 +24,7 @@ baseurl=http://mirror.openshift.com/pub/origin-server/release/3/rhel-6/dependenc
 gpgcheck=0
 EOF
 
-yum install -y ruby193-ruby unzip curl bind bind-utils httpd-tools puppet augeas
+yum install -y ruby193-ruby unzip curl bind bind-utils httpd-tools puppet augeas libcgroup
 
 # Install default config file
 mkdir ~/.openshift
